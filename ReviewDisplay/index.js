@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", function () {
       job: "Back End Developer",
       img: "person3.webp",
       description:
-        "In order to write a good paragraph, just follow the simple steps once you've decided on a topic. Step 1 is to write an outline using just a few words to get the structure. Step 2 is to write the topic sentence. Step 3 is to write the detail sentences that relate to the topic. Step 4 is to write the concluding sentence. Step 5 is to put them all together and write out the complete paragraph.",
+        "In order to write a good paragraph, just follow the simple steps once you've decided on a topic. Step 1 is to write an outline using just a few words to get the structure. Step 2 is to write the topic sentence. Step 3 is to write the detail sentences that relate to the topic. Step 4 is to write the concluding sentence. Step 5 is to put them all together and writ",
     },
     {
       id: 4,
