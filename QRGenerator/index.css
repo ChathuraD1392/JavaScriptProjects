@@ -1,0 +1,71 @@
+body {
+  background-color: darkslategrey;
+}
+
+.card {
+  width: 20rem;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.card-header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 0.25px solid darkslategrey;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-footer {
+  text-align: center;
+  color: white;
+}
+
+.qrImg {
+  width: 200px;
+  max-height: 0;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: max-hieght 1s;
+  overflow: hidden;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.qrImg.showImg {
+  max-height: 200px;
+  border: 1px solid gray;
+}
+
+.form-control.error {
+  animation: shake 0.1s linear 10;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
