@@ -1,0 +1,18 @@
+.navbar {
+  padding: 13px;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.nav-link:hover {
+  color: rgb(241, 96, 23);
+}
+.navbar-brand:hover {
+  opacity: 1;
+}
+
+.navbar-brand:hover {
+  opacity: 90%;
+}
