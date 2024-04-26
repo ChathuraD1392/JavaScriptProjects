@@ -1,0 +1,147 @@
+body {
+  background-color: aliceblue;
+}
+* {
+  font-family: "andale mono", monospace;
+}
+
+.mainDiv {
+  justify-content: center;
+  align-items: center;
+  top: 15%;
+  left: 37.5%;
+  text-align: center;
+  position: absolute;
+}
+
+.title {
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.topicDiv {
+  display: flex;
+  width: 27.5rem;
+}
+
+.imgTopic {
+  width: 37.5px;
+  height: 37.5px;
+  position: absolute;
+  left: 7px;
+  top: 15px;
+}
+
+.card {
+  width: 27.5rem;
+}
+
+.card-header {
+  display: flex;
+  background-color: #3c5b6f;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card-header .form-control {
+  margin-left: 2.3rem;
+  margin-right: 1rem;
+  width: 17.5rem;
+}
+
+.card-body {
+  background-color: #dfd0b8;
+}
+
+.card-body .subMiddle {
+  display: flex;
+}
+
+.middleLeft {
+  text-align: left;
+  width: 13.75rem;
+}
+.middleRight {
+  width: 13.75rem;
+  text-align: right;
+}
+.card-footer {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  background-color: white;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  margin-left: 125px;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #d20062;
+}
+
+.subDiv {
+  width: 27.5rem;
+  height: 200px;
+  margin: 5px;
+  display: grid;
+}
+
+.subDivLeft {
+  display: flex;
+  width: 13.75rem;
+  text-align: right;
+}
+
+.subDivRight {
+  display: flex;
+  width: 13.75rem;
+  text-align: left;
+}
+
+.humidity {
+  height: 25px;
+  justify-content: left;
+  padding-right: 3px;
+}
+
+.humidity,
+.visibility,
+.pressure,
+.windSpeed,
+.sunrise,
+.sinset {
+  text-align: left;
+}
+
+.latitude {
+  width: 20px;
+  height: 20px;
+}
+
+.temperature,
+.city,
+#lat,
+#lon {
+  font-weight: bold;
+}
+
+#lat,
+#lon {
+  text-align: center;
+}
+.footer {
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  height: 30px;
+  border-radius: 5px;
+}
