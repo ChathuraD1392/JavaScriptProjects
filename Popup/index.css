@@ -1,0 +1,32 @@
+.popup {
+  top: 0;
+  left: 45%;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transform: translate(0%, -50%) scale(0.1);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.btn-danger {
+  top: 60%;
+  left: 50%;
+  position: absolute;
+}
+
+.show {
+  visibility: visible;
+  top: 40%;
+  transform: translate(0%, -50%) scale(1);
+}
