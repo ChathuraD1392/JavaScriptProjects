@@ -1,0 +1,21 @@
+.mainDiv {
+  top: 45%;
+  left: 45%;
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+}
+
+input,
+button {
+  margin: 5px;
+}
+.closed {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 13px;
+}
